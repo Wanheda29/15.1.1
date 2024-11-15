@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>15.1.1</title>
+</head>
+<body>
+    <!--------------------------------nav-------------------------------->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOREM IPSUM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Dolor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" >Amet</a>
+              </li>
+              <li id="opbutton" class="nav-item">
+                <a class="nav-link" onclick="showOptions()">Opciones</a>
+              </li>
+            </ul>
+            <form id="search" class="d-flex search" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!------------------------------------------------->
+
+
+    <div class="container text-center mt-5">
+        <div id="titles" class="row justify-content-center">
+            <div class="col-md-6 col-lg-6">
+            <h4>Lorem ipsum...</h4>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" >
+                    <div class="carousel-item active" data-bs-interval="2000">
+                    <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                    <p>consectetur adipiscing elit</p>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                    <p>Phasellus semper fermentum mauris</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="content" class="row">
+            <div id="options" class="col-lg-3">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#">Opcion 1</a></li>
+                    <li class="list-group-item"><a href="#">Opcion 2</a></li>
+                    <li class="list-group-item"><a href="#">Opcion 3</a></li>
+                    <li class="list-group-item"><a href="#">Opcion 4</a></li>
+                  </ul>
+            </div>
+            <div class="col">
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis felis ante, feugiat eget porttitor tempor, aliquet at lacus. Donec vel risus ac diam vestibulum euismod. Proin ut turpis ultricies, elementum risus at, commodo nulla. Phasellus fringilla velit a turpis molestie, quis rhoncus orci egestas. Ut malesuada tellus et risus aliquet, ac dictum quam tincidunt. Suspendisse ligula orci, porttitor et mollis in, vulputate eget lorem. Proin scelerisque lacus id mollis tincidunt. Donec non condimentum mauris, at varius tortor. Donec placerat, tellus vel tempus euismod, sem tellus mollis erat, vel scelerisque ante ligula nec libero. In suscipit aliquet volutpat. Pellentesque varius felis vitae turpis commodo, in venenatis nibh eleifend. Curabitur ac ornare ante, id dictum neque. Praesent sit amet pellentesque sem, sed eleifend magna. Nulla quis ex eu mi mattis gravida. Maecenas sodales nisi vel urna ullamcorper, et eleifend lectus euismod. Sed pharetra est et dignissim tempus.</p>
+                <p class="text">Maecenas a ipsum sit amet arcu faucibus vehicula. Vivamus pulvinar malesuada ex vehicula auctor. Proin feugiat varius sem gravida porttitor. Ut at leo at turpis suscipit mollis non in nibh. Aenean pharetra tellus eget congue blandit. In justo neque, venenatis vitae vehicula et, pharetra at felis. Mauris aliquam ultricies commodo. Suspendisse eu faucibus lacus. Mauris dapibus ante sagittis est sollicitudin, nec egestas justo lobortis.</p>
+                <p class="text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed lacinia ligula vel diam lacinia sagittis. Fusce orci diam, malesuada sed enim non, scelerisque dignissim sapien. Quisque elementum orci quis purus pretium laoreet. Sed mattis sem non libero posuere, ut rhoncus dui imperdiet. Sed aliquet ultrices faucibus. Pellentesque lectus turpis, condimentum quis tortor a, maximus suscipit lectus. Curabitur non tempus neque. Donec finibus, felis sed eleifend consectetur, libero diam faucibus tellus, id consectetur lectus leo a tellus. Nulla et leo nibh.</p>
+                <p class="text">Duis dignissim nisl malesuada purus cursus sodales. Nullam tempus laoreet tellus. Nunc suscipit nulla sed urna faucibus, non laoreet sem tempor. Nulla maximus sagittis dui eu dapibus. Curabitur sit amet arcu venenatis, convallis sapien a, euismod quam. Sed luctus eu tellus at rhoncus. Cras auctor, felis id laoreet feugiat, purus est fringilla nulla, vitae placerat diam ipsum a tortor. Integer vel neque viverra, aliquet est in, congue ligula.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<script src="init.js"></script>
+</html>

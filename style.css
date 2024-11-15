@@ -1,0 +1,82 @@
+.navbar{
+ background-color: #6c757d;
+ color: white !important;
+}
+.navbar-brand, .nav-link.active, .nav-link:hover{
+    color:white !important;
+}
+.nav-link{
+    color: #ffffffa1;
+}
+
+.text{
+    text-align: justify;
+    text-justify: inter-word;
+    column-count: 3;
+}
+#opbutton{
+    display: block;
+}
+#options{
+    display: none;
+}
+/*
+
+
+Bootstarp break points.
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+
+
+*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 767px){ 
+    .navbar-collapse{
+        display: flex;
+        flex-direction: column;
+    }
+    #search{
+        order: -1;
+        width: 100%;
+    }
+    #titles, #options{
+        display: none;
+    }
+    .text{
+        column-count: 1;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+    .navbar-collapse{
+        display: flex;
+        flex-direction: column;
+    }
+    #search{
+        order: -1;
+        width: 100%;
+    }
+    #titles, #options{
+        display: none;
+    }
+    .text{
+        column-count: 2;
+    }
+
+    .search{
+        order: -1;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    #opbutton{
+        display: none;
+    }
+    #options{
+        display: block !important;
+    }
+ }
